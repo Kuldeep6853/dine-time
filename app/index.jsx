@@ -48,7 +48,7 @@ export default function Index() {
               onPress={() => router.push("/signin")}
             >
               <Text className="text-white font-semibold">Already a User? </Text>
-              <Text className="text-xl font-semibold text-[#f49b33] text-center">
+              <Text className="text-xl font-semibold text-[#f49b33] text-center underline">
                 Sign In
               </Text>
             </TouchableOpacity>
